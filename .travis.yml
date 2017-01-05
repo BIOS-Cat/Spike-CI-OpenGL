@@ -8,7 +8,7 @@ os:
 compiler: clang
 
 before_install:
-    - bin/install_libcheck.sh
+    - install_libcheck.sh
 
 script:
     - make && make check
