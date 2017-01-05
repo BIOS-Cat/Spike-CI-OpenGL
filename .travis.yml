@@ -8,7 +8,7 @@ os:
 compiler: clang
 
 before_install:
-    - install_libcheck.sh
+    - ./install_libcheck.sh
 
 script:
     - make && ./open-gl-tests
