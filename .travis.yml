@@ -11,4 +11,4 @@ before_install:
     - ./install_libcheck.sh
 
 script:
-    - make && ./open-gl-test-suite
+    - make && ./open_gl_test_suite
